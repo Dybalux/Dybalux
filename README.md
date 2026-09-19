@@ -1,12 +1,20 @@
 ### Luciano Lagoria
 
-Information Systems Engineering student (UTN, Argentina). I build tools that remove repetitive manual work, and I rigorously verify that they perform as expected.
+Backend developer (Python · FastAPI · PostgreSQL) with a strong focus on Docker and CI/CD. Information Systems Engineering student at UTN (Tucumán, Argentina).
 
-**Currently:** A library of reusable skills for AI coding agents — structured contracts that specify how an agent handles recurring DataOps & business-domain tasks (rules, decision gates, and clear definitions of done).
+I build APIs and automate everything around them: tests, builds, deploys and verification. Currently going deeper into infrastructure as code and AWS.
 
-- **[dataops-skills-showcase](https://github.com/Dybalux/dataops-skills-showcase)** — A vehicle titling-and-registration packet verifier turning public DMV and federal rules into executable checks, paired with a mutation-testing harness that validates test suite coverage and explicitly reports named gaps.
+**Projects**
 
-Python · SQL · PostgreSQL · BigQuery · FastAPI · pytest / BDD · Docker · Git.  
-Spanish (native) · English (working / technical written).
+- **[webmarket (EscabiAPI)](https://github.com/Dybalux/webmarket)** — E-commerce REST API. FastAPI, MongoDB, Redis, JWT with roles, rate limiting, Mercado Pago webhooks. CI/CD on GitHub Actions (pytest, Docker Buildx, smoke test), deployed on Railway, exposed via Cloudflare named tunnel.
+- **[procesador_csv](https://github.com/Dybalux/procesador_csv)** — Async CSV processor. Hexagonal architecture, Celery + Redis workers, PostgreSQL with Alembic, Docker Compose.
+- **[exam-qa-extractor](https://github.com/Dybalux/exam-qa-extractor)** — OCR-based exam study app. Multi-stage non-root Dockerfile with healthcheck; CI with ruff, mypy and pytest coverage gate; pre-commit and devcontainer.
+- **[dataops-skills-showcase](https://github.com/Dybalux/dataops-skills-showcase)** — Executable contracts for AI coding agents: Postgres migration safety checks, BigQuery cost optimization, CI templates. BDD suites validated with mutation testing.
 
-📧 lagorialuciano@gmail.com
+**Stack**
+
+Python · FastAPI · PostgreSQL · MongoDB · Redis · Celery · SQLAlchemy / Alembic · Docker · GitHub Actions · Linux · Git · BigQuery · pytest / BDD
+
+Spanish (native) · English (technical, written)
+
+📧 lagorialuciano@gmail.com · [LinkedIn](https://www.linkedin.com/in/luciano-lagoria/)
